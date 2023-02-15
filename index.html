@@ -42,6 +42,7 @@
             #instructions {
                 height: 40px;
                 background-color: rgb(33, 52, 125);
+                overflow: auto;
                 float: left;
                 width: 280px;
                 height: calc(100vh - 80px);
@@ -156,12 +157,7 @@
             <h1>Input</h1>
             <h2>The first line of input should contain a single integer, the number of nodes in the graph. Then, multiple lines of two space separated integers a and b should follow, each denoting an edge from vertex a to vertex b. You can also click and drag nodes around the page.</h2>
             
-            <textarea id="input" name="text" cols="3" rows="20" placeholder="Example 0-Indexed Graph: 
-5
-2 3
-4 1
-0 2
-2 4"></textarea>
+            <textarea id="input" name="text" cols="3" rows="20" placeholder="Example 0-Indexed Graph:&#13;&#10;5&#13;&#10;2 3&#13;&#10;4 1&#13;&#10;0 2&#13;&#10;2 4&#13;&#10;"></textarea>
             <div id="graph-status">Empty Graph</div>
             <div>
                 <label class="switch">
